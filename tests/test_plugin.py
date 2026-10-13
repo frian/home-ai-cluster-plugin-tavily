@@ -118,7 +118,7 @@ def test_exact_single_json_post_preserves_query_and_client_policy(
         "query": query,
         "search_depth": "basic",
         "max_results": 5,
-        "chunks_per_source": 1,
+        "chunks_per_source": 2,
         "include_answer": False,
         "include_raw_content": False,
         "include_images": False,
