@@ -14,7 +14,7 @@ _LIMITS = httpx.Limits(max_connections=1, max_keepalive_connections=0)
 _REQUEST_OPTIONS: dict[str, str | int | bool] = {
     "search_depth": "basic",
     "max_results": 5,
-    "chunks_per_source": 1,
+    "chunks_per_source": 2,
     "include_answer": False,
     "include_raw_content": False,
     "include_images": False,
